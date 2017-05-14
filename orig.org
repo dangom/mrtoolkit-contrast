@@ -1,0 +1,108 @@
+* [[file:media/image1.png]]Tutorial on Image Contrast
+  :PROPERTIES:
+  :CUSTOM_ID: tutorial-on-image-contrast
+  :END:
+
+Questions to be answered with the use of any material you might want to
+use.
+
+Consider the single slice 2D GRE sequence:
+
+All time values will be given in ms
+
+1) If two tissues would have the following relaxation properties:
+
+T1=[1300 1300] ms
+
+T2=[ 60 100] ms
+
+What sequence parameters should be used to see a stronger contrast
+between them?
+
+1) TR=1000ms; TE=77 ms; α=90
+
+2) TR=1000ms; TE=160 ms; α=90
+
+3) TR=1000ms; TE=0 ms; α=45
+
+1) If the excitation was done only once, the signal at the time TE would
+   be given by $M_{0}sin(\alpha)e^{- TE/T2}$. If you repeat the sequence
+   until it reaches steady state, what will the signal be?
+
+1) $M_{0}sin(\alpha)e^{- \frac{\text{TE}}{T2}}(1 - e^{- TR/T1})$
+
+2) $M_{0}sin(\alpha)e^{- TE/T2}\frac{1 - e^{- TR/T1}}{1 - {cos(\alpha)e}^{- TR/T1}}$
+
+3) $M_{0}sin(\alpha)e^{- TE/T2}$
+
+1) Grey matter has a T1=1330ms (@ 3T), and you were imaging it with a
+   TR=2000ms (standard fMRI TR), the flip angle that would generate the
+   maximum signal for that tissue would be ~77°. If the tissue would
+   have a longer T1 (for example if you would be imaging @ 7T), the
+   optimum flip angle for the same TR would be:
+
+1) Bigger than 77°
+
+2) 77°
+
+3) Smaller than 77°
+
+1) Grey matter has a T1=1330ms (@ 3T), and you were imaging it with a
+   TR=3000ms, the flip angle that would generate the maximum signal for
+   that tissue would be ~84°. If the sequence would be much faster
+   (thanks to multiband 6), the TR should change to:
+
+1) Bigger than 84°
+
+2) Remain at 84°
+
+3) Smaller than 84°
+
+1) If two tissues have the same T2 but different T1s of [700 1100] (WM
+   and GM at 3T), then the optimum contrast when having a GRE sequence
+   with TR=600ms is achieved with a 90° flip angle. When doing 3D
+   encoding of a volume of 200x200x200 pixels the acquisition would last
+
+1) 400 mins
+
+2) 80000 mins
+
+3) 2mins
+
+1) To accelerate the previous acquisition the TR could be reduced to
+   6ms, in which case the optimum flip angle would be
+
+1) The same
+
+2) Reduced
+
+3) Increased
+
+1) When comparing the acquisitions TR=600 and TR=6ms , the signal
+   difference between the tissues with T1=700ms and T1=1100ms will be
+   15.5 and 1.7 respectively. Which of the sequence has the maximum
+   contrast in a given amount of time? (note that the SNR for a given
+   number of averages, N_{av}, increases $\sqrt{N_{\text{av}}}$)
+
+1) TR = 6ms
+
+2) TR = 600ms
+
+3) They have the same contrast
+
+After the first attempt you can find some MATLAB Scripts to help you
+interact with this tutorial can be found on:
+H:\common\temporary\4Toolkit\TutorialImageContrast
+
+Copy the folder to your desktop.
+
+Open MATLAB, and the script Macro2.m
+
+Make sure your current directory is that where the script Macro2.m is
+located.
+
+The code is organized into cells. You can run the code of each cell by
+simply pressing ctrl+enter
+
+You can change various parameters and rerun the code following the
+instructions in the script
