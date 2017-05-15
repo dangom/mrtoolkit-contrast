@@ -107,7 +107,7 @@ Consider the case of a subject undergoing a functional study using a 2D EPI sequ
 
 - [ ] *B.* Depending on the slice ordering (sequential – 1,2,3,4,5…- or interleaved – 1,3,5… 2,4,… -). You will get different artifacts depending on the direction of motion. Biggest signal variations are expected with sequential slice ordering and will only affect one volume.
 
-- [ ] *C.* Once you perform motion correction of your data, you are good 
+- [ ] *C.* Once you perform motion correction of your data, you are good =).
 - [ ] *D.* It’s complicated.
 
 -----
