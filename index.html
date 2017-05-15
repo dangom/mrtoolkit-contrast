@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2017-05-15 Mon 15:12 -->
+<!-- 2017-05-15 Mon 15:15 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>MR Toolkit - Image Contrast</title>
@@ -263,25 +263,25 @@ for the JavaScript code in this tag.
 <ul>
 <li><a href="#tutorial-on-image-contrast">Image Contrast Tutorial</a>
 <ul>
-<li><a href="#org8b84591">1. Single Slice GRE Sequence</a></li>
-<li><a href="#org71202d2">2. Steady State Signal</a></li>
-<li><a href="#org6d82c30">3.  Signal intensity, T1 relaxation and flip angles.</a>
+<li><a href="#orgf7cc97f">1. Single Slice GRE Sequence</a></li>
+<li><a href="#orgdbc894d">2. Steady State Signal</a></li>
+<li><a href="#orgb2370c9">3.  Signal intensity, T1 relaxation and flip angles.</a>
 <ul>
-<li><a href="#org86be50e">Signal Intensity and T1 relaxation times.</a></li>
-<li><a href="#orgbceda94">Signal intensity and Flip Angles.</a></li>
+<li><a href="#org01575e2">Signal Intensity and T1 relaxation times.</a></li>
+<li><a href="#org5fbadb8">Signal intensity and Flip Angles.</a></li>
 </ul>
 </li>
-<li><a href="#org31aaacd">2D vs. 3D encoding</a>
+<li><a href="#orgb855298">2D vs. 3D encoding</a>
 <ul>
-<li><a href="#org31abb98">Acquisition Time</a></li>
-<li><a href="#org353d004">Flip Angles</a></li>
-<li><a href="#orgf4217e0">Contrast</a></li>
+<li><a href="#org1683d39">Acquisition Time</a></li>
+<li><a href="#org734a322">Flip Angles</a></li>
+<li><a href="#org01a6aa8">Contrast</a></li>
 </ul>
 </li>
-<li><a href="#orgae6895c">Spin History</a></li>
+<li><a href="#orgcce8a26">Spin History</a></li>
 </ul>
 </li>
-<li><a href="#orgc6070c9">Supplementary Information</a></li>
+<li><a href="#org25b4d41">Supplementary Information</a></li>
 </ul>
 </div>
 </div>
@@ -294,8 +294,8 @@ Questions to be answered in <b>groups of three</b> with the use of any material 
 </div>
 
 
-<div id="outline-container-orgaac8d95" class="outline-2">
-<h2 id="tutorial-on-image-contrast"><a id="orgaac8d95"></a>Image Contrast Tutorial</h2>
+<div id="outline-container-orgb00aa16" class="outline-2">
+<h2 id="tutorial-on-image-contrast"><a id="orgb00aa16"></a>Image Contrast Tutorial</h2>
 <div class="outline-text-2" id="text-tutorial-on-image-contrast">
 
 <div class="figure">
@@ -305,9 +305,9 @@ Questions to be answered in <b>groups of three</b> with the use of any material 
 </div>
 
 
-<div id="outline-container-org8b84591" class="outline-3">
-<h3 id="org8b84591">1. Single Slice GRE Sequence</h3>
-<div class="outline-text-3" id="text-org8b84591">
+<div id="outline-container-orgf7cc97f" class="outline-3">
+<h3 id="orgf7cc97f">1. Single Slice GRE Sequence</h3>
+<div class="outline-text-3" id="text-orgf7cc97f">
 <p>
 Consider the properties of two different tissue types:
 </p>
@@ -356,9 +356,9 @@ Consider the properties of two different tissue types:
 </div>
 </div>
 
-<div id="outline-container-org71202d2" class="outline-3">
-<h3 id="org71202d2">2. Steady State Signal</h3>
-<div class="outline-text-3" id="text-org71202d2">
+<div id="outline-container-orgdbc894d" class="outline-3">
+<h3 id="orgdbc894d">2. Steady State Signal</h3>
+<div class="outline-text-3" id="text-orgdbc894d">
 <p>
 <b>The signal of a single excitation at  time TE  is given by \(M_{0}sin(\alpha)e^{- \frac{\text{TE}}{T2}}\). If you repeat the sequence until it reaches steady state, what of the following expressions better describes your signal intensity?</b>
 </p>
@@ -371,17 +371,17 @@ Consider the properties of two different tissue types:
 </div>
 </div>
 
-<div id="outline-container-org6d82c30" class="outline-3">
-<h3 id="org6d82c30">3.  Signal intensity, T1 relaxation and flip angles.</h3>
-<div class="outline-text-3" id="text-org6d82c30">
+<div id="outline-container-orgb2370c9" class="outline-3">
+<h3 id="orgb2370c9">3.  Signal intensity, T1 relaxation and flip angles.</h3>
+<div class="outline-text-3" id="text-orgb2370c9">
 <p>
 Grey matter has a T1=1330ms (@ 3T).  When imaging with a TR=2000ms (standard fMRI TR), the flip angle that generates the maximum signal for that  tissue is 77°.
 </p>
 </div>
 
-<div id="outline-container-org86be50e" class="outline-4">
-<h4 id="org86be50e">Signal Intensity and T1 relaxation times.</h4>
-<div class="outline-text-4" id="text-org86be50e">
+<div id="outline-container-org01575e2" class="outline-4">
+<h4 id="org01575e2">Signal Intensity and T1 relaxation times.</h4>
+<div class="outline-text-4" id="text-org01575e2">
 <p>
 <b>If grey matter tissue had a longer T1 (for example when imaging @ 7T), the optimum flip angle for the same TR would be:</b>
 </p>
@@ -395,9 +395,9 @@ Grey matter has a T1=1330ms (@ 3T).  When imaging with a TR=2000ms (standard fMR
 </div>
 
 
-<div id="outline-container-orgbceda94" class="outline-4">
-<h4 id="orgbceda94">Signal intensity and Flip Angles.</h4>
-<div class="outline-text-4" id="text-orgbceda94">
+<div id="outline-container-org5fbadb8" class="outline-4">
+<h4 id="org5fbadb8">Signal intensity and Flip Angles.</h4>
+<div class="outline-text-4" id="text-org5fbadb8">
 <p>
 If the sequence were faster (for example with multiband 6), the optimal flip angle for the same tissue  would be:
 </p>
@@ -415,17 +415,17 @@ If the sequence were faster (for example with multiband 6), the optimal flip ang
 </div>
 </div>
 
-<div id="outline-container-org31aaacd" class="outline-3">
-<h3 id="org31aaacd">2D vs. 3D encoding</h3>
-<div class="outline-text-3" id="text-org31aaacd">
+<div id="outline-container-orgb855298" class="outline-3">
+<h3 id="orgb855298">2D vs. 3D encoding</h3>
+<div class="outline-text-3" id="text-orgb855298">
 <p>
 If two tissues have the same T<sub>2</sub> but different T<sub>1</sub> values,  of 700 and 1100ms, respectively (WM and GM at 3T), then the optimum contrast when using a  GRE sequence with TR=600ms is achieved with a 90° flip angle. 
 </p>
 </div>
 
-<div id="outline-container-org31abb98" class="outline-4">
-<h4 id="org31abb98">Acquisition Time</h4>
-<div class="outline-text-4" id="text-org31abb98">
+<div id="outline-container-org1683d39" class="outline-4">
+<h4 id="org1683d39">Acquisition Time</h4>
+<div class="outline-text-4" id="text-org1683d39">
 <p>
 <b>When 3D encoding a volume of 200x200x200 pixels, how long does the acquisition last?</b>
 </p>
@@ -438,9 +438,9 @@ If two tissues have the same T<sub>2</sub> but different T<sub>1</sub> values,  
 </div>
 </div>
 
-<div id="outline-container-org353d004" class="outline-4">
-<h4 id="org353d004">Flip Angles</h4>
-<div class="outline-text-4" id="text-org353d004">
+<div id="outline-container-org734a322" class="outline-4">
+<h4 id="org734a322">Flip Angles</h4>
+<div class="outline-text-4" id="text-org734a322">
 <p>
 <b>To accelerate the previous acquisition the TR could be reduced to 6ms, in which case the optimum flip angle would be:</b>
 </p>
@@ -453,9 +453,9 @@ If two tissues have the same T<sub>2</sub> but different T<sub>1</sub> values,  
 </div>
 </div>
 
-<div id="outline-container-orgf4217e0" class="outline-4">
-<h4 id="orgf4217e0">Contrast</h4>
-<div class="outline-text-4" id="text-orgf4217e0">
+<div id="outline-container-org01a6aa8" class="outline-4">
+<h4 id="org01a6aa8">Contrast</h4>
+<div class="outline-text-4" id="text-org01a6aa8">
 <p>
 When comparing the acquisitions with TR=600 and TR=6ms , the signal difference between tissues with T1=700ms and T1=1100ms will be 15.5 and 1.7, respectively. <b>Which of the acquisitions has the maximum contrast in a given amount of time?</b> (note that the SNR for a given number of averages, N<sub>av</sub>, increases \(\sqrt{N_{\text{av}}}\)).
 </p>
@@ -469,9 +469,9 @@ When comparing the acquisitions with TR=600 and TR=6ms , the signal difference b
 </div>
 </div>
 
-<div id="outline-container-orgae6895c" class="outline-3">
-<h3 id="orgae6895c">Spin History</h3>
-<div class="outline-text-3" id="text-orgae6895c">
+<div id="outline-container-orgcce8a26" class="outline-3">
+<h3 id="orgcce8a26">Spin History</h3>
+<div class="outline-text-3" id="text-orgcce8a26">
 <p>
 Consider the case of a subject undergoing a functional study using a 2D EPI sequence (with TR=2500ms). During image acquisition, he moves along the z direction ~50% of the slice thickness. This movement happens halfway through the volume excitation. <b>Motion correction can be used to reduce these nuisances…</b>
 </p>
@@ -481,7 +481,7 @@ Consider the case of a subject undergoing a functional study using a 2D EPI sequ
 
 <li class="off"><input type='checkbox' /> <b>B.</b> Depending on the slice ordering (sequential – 1,2,3,4,5…- or interleaved – 1,3,5… 2,4,… -). You will get different artifacts depending on the direction of motion. Biggest signal variations are expected with sequential slice ordering and will only affect one volume.</li>
 
-<li class="off"><input type='checkbox' /> <b>C.</b> Once you perform motion correction of your data, you are good =).</li>
+<li class="off"><input type='checkbox' /> <b>C.</b> Once you perform motion correction of your data, you are good!.</li>
 <li class="off"><input type='checkbox' /> <b>D.</b> It’s complicated.</li>
 </ul>
 
@@ -490,9 +490,9 @@ Consider the case of a subject undergoing a functional study using a 2D EPI sequ
 </div>
 </div>
 
-<div id="outline-container-orgc6070c9" class="outline-2">
-<h2 id="orgc6070c9">Supplementary Information</h2>
-<div class="outline-text-2" id="text-orgc6070c9">
+<div id="outline-container-org25b4d41" class="outline-2">
+<h2 id="org25b4d41">Supplementary Information</h2>
+<div class="outline-text-2" id="text-org25b4d41">
 <p>
 An Ernst Angle calculator can be found <a href="http://www.mritoolbox.com/ErnstAngle.html">here.</a>
 </p>
@@ -523,7 +523,7 @@ The code is organized into cells. You can run the code of each cell by simply pr
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: J. Marques &amp; D. Gomez</p>
-<p class="date">Created: 2017-05-15 Mon 15:12</p>
+<p class="date">Created: 2017-05-15 Mon 15:15</p>
 <p class="validation"></p>
 </div>
 </body>
