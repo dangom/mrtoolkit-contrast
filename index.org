@@ -24,6 +24,9 @@ Questions to be answered in *groups of three* with the use of any material you m
 :CUSTOM_ID: tutorial-on-image-contrast
 :END:
 
+file:./media/image1.png
+
+
 ** 1. Single Slice GRE Sequence
 
 Consider the properties of two different tissue types:
